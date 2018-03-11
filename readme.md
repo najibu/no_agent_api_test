@@ -12,6 +12,7 @@ php artisan serve
 ```
 
 ### API Endpoints
+``` bash
 GET            /api/v1/properties                 List all properties
 GET            /api/v1/recipes/{id}               Retrieve a specific property
 POST           /api/v1/properties                 Add a property, requiring only the address # body {
@@ -20,6 +21,6 @@ POST           /api/v1/properties                 Add a property, requiring only
     "city": "London",
     "postcode": "EC2A 4QS"
 }
-
+```
 
 #### Thank you for checking out no agent api
