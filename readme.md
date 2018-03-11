@@ -14,7 +14,7 @@ php artisan serve
 ### API Endpoints
 ``` bash
 GET            /api/v1/properties                 List all properties
-GET            /api/v1/recipes/{id}               Retrieve a specific property
+GET            /api/v1/properties/{id}               Retrieve a specific property
 POST           /api/v1/properties                 Add a property, requiring only the address # body {
     "address_1": "65 Leonard St",
     "address_2": "",
